@@ -219,7 +219,7 @@
             bindings = <
             &bt BT_SEL 3  &bt BT_SEL 0  &out OUT_TOG  &kp C_PLAY_PAUSE  &kp C_MUTE           &close      &kp F9  &kp F10  &kp F11  &kp F12
             &bt BT_SEL 4  &bt BT_SEL 1  &sys_reset    &kp C_BRI_UP      &kp C_VOLUME_UP      &close_mac  &kp F5  &kp F6   &kp F7   &kp F8
-&bt BT_CLR  &trans        &bt BT_SEL 2  &none         &kp C_BRI_DEC     &kp C_VOLUME_DOWN    &trans      &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&bt BT_CLR  &trans        &bt BT_SEL 2  &none         &kp C_BRI_DEC     &kp C_VOLUME_DOWN    &trans      &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_CLR_ALL
                                         &trans        &trans            &trans               &trans      &trans  &trans
             >;
         };
